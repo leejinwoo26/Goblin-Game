@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\메인">
+      <UniqueIdentifier>{f8f59b01-4a3d-46c7-ba00-8b673038cb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\게임매니저">
+      <UniqueIdentifier>{824d9cac-d70b-4b8d-bb98-1738e041e827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\캐릭터">
+      <UniqueIdentifier>{47b1a0f5-a527-4473-b77b-aa1f22e9f427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\캐릭터\헤더">
+      <UniqueIdentifier>{e5f2c036-007a-459d-a74a-3d8a201204e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\캐릭터\cpp">
+      <UniqueIdentifier>{27abca84-081b-4ffd-b92d-7d43c8022902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\게임매니저\cpp">
+      <UniqueIdentifier>{dfb8f0b8-4184-4af3-bb17-a5c8d6f0fc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\게임매니저\헤더">
+      <UniqueIdentifier>{c9989b84-74ca-4b41-b70d-dbab90791317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\아이템">
+      <UniqueIdentifier>{946c7dbe-e5bc-4689-a4ed-a33cbddfab9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\아이템\헤더">
+      <UniqueIdentifier>{465d26f4-2212-4457-bbb4-e6d37653e32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\아이템\cpp">
+      <UniqueIdentifier>{868e8412-82c3-4ac0-8763-01f615f8c07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\스킬">
+      <UniqueIdentifier>{ed6b9e28-db5a-4f04-9279-0ff38ebed19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\스킬\헤더">
+      <UniqueIdentifier>{18462d1d-4188-408d-8ab2-dd126852fe10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\스킬\cpp">
+      <UniqueIdentifier>{1bf60b21-959c-4972-99a0-160f07171451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>리소스 파일\메인</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>리소스 파일\캐릭터\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>리소스 파일\캐릭터\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>리소스 파일\캐릭터\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>리소스 파일\게임매니저\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>리소스 파일\아이템\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>리소스 파일\아이템\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>리소스 파일\아이템\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>리소스 파일\아이템\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>리소스 파일\스킬\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="character.h">
+      <Filter>리소스 파일\캐릭터\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>리소스 파일\캐릭터\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>리소스 파일\캐릭터\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>리소스 파일\게임매니저\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>리소스 파일\아이템\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>리소스 파일\아이템\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>리소스 파일\아이템\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>리소스 파일\아이템\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>리소스 파일\스킬\헤더</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
